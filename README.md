@@ -8,11 +8,8 @@ The build will be OK. However, if you update Spring Cloud OpenFeign, `MyFeignCli
 
 It has been tested with these versions:
 
-| Spring Boot | Spring Cloud OpenFeign | Result |
-| ----------- | ---------------------- | ------ |
-| 2.5.12      | 3.0.3                  | ✅     |
-| 2.5.12      | 3.0.4                  | ❌     |
-| 2.5.12      | 3.0.5                  | ❌     |
-| 2.5.12      | 3.0.6                  | ❌     |
-| 2.6.6       | 3.1.0                  | ❌     |
-| 2.6.6       | 3.1.1                  | ❌     |
+| Spring Boot       | Spring Cloud OpenFeign | Result |
+|-------------------|------------------------|--------|
+| `2.5.14`          | `3.0.3`                | ✅      |
+| `2.5.14`          | `3.0.4` - `3.0.8`      | ❌      |
+| `2.6.14`, `2.7.8` | `3.1.0` - `3.1.5`      | ❌      |
